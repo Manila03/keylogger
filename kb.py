@@ -27,7 +27,7 @@ while True:
                 archivo.write(f'{event.name}')
 
     carac += 1
-    if carac >= 100:
+    if carac >= 500:
         with open('0.txt', 'r') as archivox:
             contenido = archivox.read()
 
